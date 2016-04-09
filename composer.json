@@ -1,0 +1,17 @@
+{
+    "name": "magento-hackathon/mdia",
+    "description": "Magento 2 Extension to improve media handling capabilities for scaling horizontally",
+    "require": {
+        "magento/product-community-edition": "*"
+    },
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "autoload": {
+        "psr-4": {
+            "MagentoHackathon\\Mdia\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
