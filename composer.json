@@ -2,7 +2,8 @@
     "name": "magento-hackathon/mdia",
     "description": "Magento 2 Extension to improve media handling capabilities for scaling horizontally",
     "require": {
-        "magento/product-community-edition": "*"
+        "magento/module-catalog": "100.0.*",
+        "magento/framework": "100.0.*"
     },
     "type": "magento2-module",
     "version": "0.1.0",
